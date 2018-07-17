@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!--favicon goes here-->
+        <link rel="icon" href="">
+        <title>Hi</title>
+
+        <!--CSS all the comments for css are in the scss file-->
+        <link rel="stylesheet" href="./public/css/styles.css">
+    </head>
+    <body>
+
+        <!--Harrassment section (not on mobile)-->
+        <!-- h1, 2 img, 1 bg-->
+        <div class="harrassment">
+            <div class="harrassBg">
+                <div class="harrassContent">
+                    <div class="textH1">
+                        Harrassment
+                    </div>
+                    <div class="harrassMan"></div>
+                    <div class="harrassWoman"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!--Two types of harassment section-->
+        <!-- h1, h2, 6 img, 2 bg -->
+        <div class="twoTypes">
+            <div class="twoBg">
+            </div>
+                <div class="mainContainer">
+                    <div class="textH1">
+                        two types of harrassment
+                    </div>
+                    <div class="textH2">
+                        Click and drag the employees to reveal more information.
+                    </div>
+                    <div class="topContainer">
+                        <!--first row for drag man/woman-->
+                        <div id="dragWoman" class="dragWoman" draggable="true"></div>
+                        <div id="dragMan" class="dragMan" draggable="true"></div>
+                    </div>
+                    <div class="botContainer">
+                        <!--second row for harass man/woman -->
+                        <div id="quidEmpty" class="quidEmpty"></div>
+                        <div id="textEmpty" class="textEmpty"><h1>QUID PRO QUO</h1> <br>
+                            means “something for something” or “this
+                            for that.” Example: An employee must
+                            submit to a supervisor’s sexually
+                            harassing conduct in order to get
+                            promoted by the supervisor.</div>
+                        <div class="quidText"><h1>QUID PRO QUO</h1> <br>
+                            means “something for something” or “this
+                            for that.” Example: An employee must
+                            submit to a supervisor’s sexually
+                            harassing conduct in order to get
+                            promoted by the supervisor.</div>
+                        <div class="hostileText"><h1>HOSTILE WORK ENVIROMENT</h1> <br>
+                            is demonstrated by severe or
+                            pervasive conduct that creates a
+                            work environment a reasonable
+                            person would consider intimidating,
+                            hostile, or abusive.</div>
+                        <div id="hostileEmpty" class="hostileEmpty"></div>
+                    </div>
+                    <div class="botContainerMobile">
+                        <div class="botContainerMobileSub">
+                            <div class="quidEmptyMobile"></div>
+                        </div>
+                        <div class="botContainerMobileSub2">
+                            <div class="hostileEmptyMobile"></div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <!--Bullying section (not on mobile)-->
+        <!-- h1, ptext, 2 img, 2 bg -->
+        <div class="bullying">
+            <div class="bullyingBg">
+            </div>
+            <div class="mainContainer">
+                <div class="bullies"></div>
+                <div class="bullyText">
+                    <div class="textH1">Bullying</div>
+                    Workplace bullying is defined as the<br>
+                    repeated abuse of one or more persons<br>
+                    by one or more perpetrators that: <br>
+                    <ul class="bullyTextList">
+                        <li>Is done with malice</li>
+                        <li>Is threatening, humiliating or intimidating</li>
+                        <li>Is verbally or physically abusive</li>
+                        <li> Interferes with the person’s ability to get his or her work done</li>
+                        <li>Is unrelated to the Company’s legitimate business interests</li>
+                    </ul>
+                </div>
+                <div class="victim"></div>
+            </div>
+        </div>
+
+        <!-- Bootstrap core JavaScript -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="./public/js/main.js"></script>
+  </body>
+</html>

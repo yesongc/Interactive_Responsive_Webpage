@@ -1,0 +1,334 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Arial"; }
+
+.body {
+  height: 100%;
+  width: 100%;
+  margin: 0; }
+
+.textH1 {
+  text-transform: uppercase;
+  font-size: 200%;
+  font-weight: bold;
+  color: white; }
+
+.textH2 {
+  font-size: 100%;
+  color: white; }
+
+.harrassment {
+  position: relative;
+  background-color: #e4e1e1;
+  height: 100vh;
+  width: 100%;
+  z-index: 0; }
+  .harrassment .harrassBg {
+    background-image: url("../img/star-bg.png");
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+    bottom: 0;
+    z-index: 0; }
+  .harrassment .harrassBg:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    transform: skewY(-3deg);
+    bottom: 10vh;
+    z-index: 0; }
+  .harrassment .harrassContent {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 1; }
+  .harrassment .textH1 {
+    text-align: left;
+    padding-left: 5%;
+    z-index: 0; }
+  .harrassment .harrassMan {
+    background-image: url("../img/harrassment-man.png");
+    background-repeat: no-repeat;
+    z-index: 0;
+    width: 35%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 12%; }
+  .harrassment .harrassWoman {
+    background-image: url("../img/harrassment-womanwithtextpod.png");
+    background-repeat: no-repeat;
+    z-index: 0;
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    left: 5%; }
+
+.twoTypes {
+  position: relative;
+  background-color: #888585;
+  height: 130vh;
+  z-index: 0; }
+  .twoTypes .twoBg {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+    background-color: #2a3f5a; }
+  .twoTypes .twoBg:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    transform: skewY(-3deg);
+    bottom: 10vh;
+    z-index: 0; }
+  .twoTypes .textH1 {
+    text-align: center; }
+  .twoTypes .textH2 {
+    text-align: center; }
+  .twoTypes .mainContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    position: absolute; }
+  .twoTypes .topContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 35%;
+    padding-top: 2%; }
+  .twoTypes .botContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 65%; }
+  .twoTypes .dragWoman {
+    background-image: url("../img/drag-woman.png");
+    background-repeat: no-repeat;
+    z-index: 0;
+    width: 5%;
+    height: 60%;
+    margin-top: 2%;
+    position: relative;
+    cursor: pointer; }
+  .twoTypes .dragMan {
+    background-image: url("../img/drag-man.png");
+    background-repeat: no-repeat;
+    z-index: 0;
+    width: 5%;
+    height: 65%;
+    position: relative;
+    cursor: pointer; }
+  .twoTypes .quidEmpty {
+    background-image: url("../img/quid-empty.png");
+    background-repeat: no-repeat;
+    z-index: 0;
+    width: 20%;
+    height: 80%;
+    margin-left: 5%; }
+  .twoTypes h1 {
+    margin: 0;
+    padding: 0;
+    color: #5984ac;
+    text-transform: uppercase;
+    font-size: 170%; }
+  .twoTypes .textEmpty {
+    max-width: 30%;
+    height: 45%;
+    padding: 1%;
+    border-radius: 30px;
+    visibility: hidden; }
+  .twoTypes .quidText {
+    position: absolute;
+    max-width: 30%;
+    height: 25%;
+    padding: 1%;
+    border-radius: 30px;
+    background-color: #476480;
+    overflow: hidden;
+    color: white;
+    font-size: 120%;
+    visibility: hidden; }
+  .twoTypes .hostileText {
+    position: absolute;
+    max-width: 30%;
+    height: 25%;
+    padding: 1%;
+    border-radius: 30px;
+    background-color: #476480;
+    overflow: hidden;
+    color: white;
+    font-size: 120%;
+    visibility: hidden; }
+  .twoTypes .hostileEmpty {
+    background-image: url("../img/hostile-empty.png");
+    background-repeat: no-repeat;
+    z-index: 0;
+    width: 30%;
+    height: 80%;
+    margin-left: 5%; }
+
+.bullying {
+  position: relative;
+  background-color: #e7e5e5;
+  height: 70vh;
+  z-index: 0; }
+  .bullying .bullyingBg {
+    background-color: #cecbcb;
+    position: absolute;
+    width: 100%;
+    height: 40vh;
+    top: 0;
+    z-index: 0; }
+  .bullying .bullyingBg:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    transform: skewY(-5deg);
+    margin-top: 10%;
+    z-index: 0; }
+  .bullying .mainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%; }
+  .bullying .bullies {
+    background-image: url("../img/bullying-bullies.png");
+    background-repeat: no-repeat;
+    z-index: 0;
+    width: 20%;
+    height: 100%;
+    margin-top: 5%; }
+  .bullying .bullyText {
+    width: 30%;
+    padding-top: 2%;
+    position: relative; }
+  .bullying .victim {
+    background-image: url("../img/bullying-victim.png");
+    background-repeat: no-repeat;
+    z-index: 0;
+    width: 20%;
+    height: 65%;
+    margin-top: 5%; }
+  .bullying .textH1 {
+    color: #3f3e3e;
+    margin-bottom: 3%; }
+  .bullying ul {
+    list-style: none;
+    /* Remove HTML bullets */
+    padding: 0;
+    margin: 0; }
+  .bullying li {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    display: table; }
+  .bullying li::before {
+    content: ">>";
+    color: #f03636;
+    font-weight: bold;
+    display: table-cell; }
+
+@media (max-width: 500px) {
+  .harrassment {
+    display: none; }
+  .bullying {
+    display: none; }
+  .twoTypes {
+    height: 100vh; }
+    .twoTypes .twoBg {
+      height: 75vh; }
+    .twoTypes .textH1 {
+      text-align: center;
+      font-size: 100%; }
+    .twoTypes .textH2 {
+      text-align: center;
+      font-size: 60%; }
+    .twoTypes .topContainer {
+      height: 20%;
+      padding-top: 1%; }
+    .twoTypes .botContainer {
+      height: 40%; }
+    .twoTypes .dragWoman {
+      width: 17%;
+      height: 140%;
+      transform: scale(0.5, 0.5);
+      top: -10%; }
+    .twoTypes .dragMan {
+      width: 20%;
+      height: 150%;
+      transform: scale(0.5, 0.5);
+      top: -15%; }
+    .twoTypes .quidEmpty {
+      display: none; }
+    .twoTypes h1 {
+      margin: 0;
+      padding: 0;
+      color: #5984ac;
+      text-transform: uppercase;
+      font-size: 100%; }
+    .twoTypes .textEmpty {
+      display: none; }
+    .twoTypes .quidText {
+      max-width: 45%;
+      height: 20%;
+      padding: 1%;
+      border-radius: 15px;
+      font-size: 60%;
+      visibility: hidden;
+      align-self: center;
+      position: absolute; }
+    .twoTypes .hostileText {
+      max-width: 45%;
+      height: 20%;
+      padding: 1%;
+      border-radius: 15px;
+      font-size: 60%;
+      visibility: hidden;
+      align-self: center;
+      position: absolute; }
+    .twoTypes .hostileEmpty {
+      display: none; }
+    .twoTypes .botContainerMobile {
+      height: 250px;
+      width: 360px;
+      display: flex;
+      flex-direction: row; }
+      .twoTypes .botContainerMobile .botContainerMobileSub {
+        width: 50%;
+        height: 100%; }
+        .twoTypes .botContainerMobile .botContainerMobileSub .quidEmptyMobile {
+          background-image: url("../img/quid-empty.png");
+          background-repeat: no-repeat;
+          z-index: 0;
+          width: 400px;
+          height: 450px;
+          transform: scale(0.4, 0.4);
+          position: relative;
+          right: 100px;
+          bottom: 130px; }
+      .twoTypes .botContainerMobile .botContainerMobileSub2 {
+        width: 50%;
+        height: 100%; }
+        .twoTypes .botContainerMobile .botContainerMobileSub2 .hostileEmptyMobile {
+          background-image: url("../img/hostile-empty.png");
+          background-repeat: no-repeat;
+          z-index: 0;
+          width: 400px;
+          height: 400px;
+          transform: scale(0.4, 0.4);
+          position: relative;
+          right: 100px;
+          bottom: 100px; } }
